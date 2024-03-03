@@ -1,0 +1,13 @@
+name: nginxproxymanager
+services:
+  nginxproxymanager:
+    image: 'jc21/nginx-proxy-manager:latest'
+    container_name: homelab_nginxproxymanager
+    volumes:
+      - /DATA/AppData/nginxproxymanager/data:/data
+      - /DATA/AppData/nginxproxymanager/etc/letsencrypt:/etc/letsencrypt
+    ports:
+      - '80:80'
+      - '443:443'
+      - '81:81'
+    restart: unless-stopped

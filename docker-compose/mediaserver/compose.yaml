@@ -1,0 +1,110 @@
+name: mediaserver
+services:
+  jellyfin:
+    image: linuxserver/jellyfin:latest
+    container_name: homelab_jellyfin
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Lisbon
+    volumes:
+      - /DATA/AppData/jellyfin/config:/config
+      - /DATA/Media:/Media/
+    ports:
+      - 8096:8096
+    restart: unless-stopped
+    networks:
+      - jellyfin
+
+  transmission:
+    image: linuxserver/transmission:latest
+    container_name: homelab_transmission
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Lisbon
+      - USER=casaos
+      - PASS=casaos
+      - PEERPORT= 51413
+    volumes:
+      - /DATA/AppData/transmission/config:/config
+      - /DATA/Downloads:/downloads
+      - /DATA/Downloads/watch:/watch
+    ports:
+      - 9091:9091
+      - 51413:51413
+      - 51413:51413/udp
+    restart: unless-stopped
+    networks:
+      - transmission
+
+  sonarr:
+    image: linuxserver/sonarr:latest
+    container_name: homelab_sonarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Lisbon
+    volumes:
+      - /DATA/AppData/sonarr/config:/config
+      - /DATA/Media/TV Shows:/tv
+      - /DATA/Downloads:/downloads
+    ports:
+      - 8989:8989
+    restart: unless-stopped
+    networks:
+      - arr
+
+  radarr:
+    image: linuxserver/radarr:latest
+    container_name: homelab_radarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Lisbon
+    volumes:
+      - /DATA/AppData/radarr/config:/config
+      - /DATA/Media/Movies:/movies
+      - /DATA/Downloads:/downloads
+    ports:
+      - 7878:7878
+    restart: unless-stopped
+    networks:
+      - arr
+
+  prowlarr:
+    image: linuxserver/prowlarr:latest
+    container_name: homelab_prowlarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Lisbon
+    volumes:
+      - /DATA/AppData/prowlarr/config:/config
+    ports:
+      - 9696:9696
+    restart: unless-stopped
+    networks:
+      - arr
+
+  bazarr:
+    image: linuxserver/bazarr:latest
+    container_name: homelab_bazarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Lisbon
+    volumes:
+      - /DATA/AppData/bazarr/config:/config
+      - /DATA/Media/Movies:/movies
+      - /DATA/Media/TV Shows:/tv
+    ports:
+      - 6767:6767
+    restart: unless-stopped
+    networks:
+      - arr
+
+networks:
+  jellyfin:
+  transmission:
+  arr:
