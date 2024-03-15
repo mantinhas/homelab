@@ -1,0 +1,841 @@
+[2024-03-04T04:10:04.484Z] info: docker.yaml was copied to the config folder
+[2024-03-04T04:10:04.485Z] info: services.yaml was copied to the config folder
+[2024-03-04T04:10:04.486Z] info: bookmarks.yaml was copied to the config folder
+[2024-03-04T04:10:04.490Z] info: widgets.yaml was copied to the config folder
+[2024-03-04T04:10:04.491Z] info: custom.css was copied to the config folder
+[2024-03-04T04:10:04.491Z] info: custom.js was copied to the config folder
+[2024-03-04T04:10:04.580Z] info: kubernetes.yaml was copied to the config folder
+[2024-03-04T04:14:48.025Z] error: Failed to load services.yaml, please check for errors
+[2024-03-04T04:14:48.026Z] error: YAMLException: bad indentation of a mapping entry (9:20)
+
+  6 |   - Jellyfin:
+  7 |     icon: jellyfin.svg
+  8 |     href: 192.168.1.82:8096
+  9 |         description: Jellyfin Media Player
+-------------------------^
+ 10 | 
+ 11 | - My Second Group:
+[2024-03-04T04:14:48.255Z] error: Failed to load services.yaml, please check for errors
+[2024-03-04T04:14:48.256Z] error: YAMLException: bad indentation of a mapping entry (9:20)
+
+  6 |   - Jellyfin:
+  7 |     icon: jellyfin.svg
+  8 |     href: 192.168.1.82:8096
+  9 |         description: Jellyfin Media Player
+-------------------------^
+ 10 | 
+ 11 | - My Second Group:
+[2024-03-04T04:14:48.698Z] error: Failed to load services.yaml, please check for errors
+[2024-03-04T04:14:48.698Z] error: YAMLException: bad indentation of a mapping entry (9:20)
+
+  6 |   - Jellyfin:
+  7 |     icon: jellyfin.svg
+  8 |     href: 192.168.1.82:8096
+  9 |         description: Jellyfin Media Player
+-------------------------^
+ 10 | 
+ 11 | - My Second Group:
+[2024-03-04T04:14:55.122Z] error: Failed to load services.yaml, please check for errors
+[2024-03-04T04:14:55.122Z] error: YAMLException: bad indentation of a mapping entry (9:20)
+
+  6 |   - Jellyfin:
+  7 |     icon: jellyfin.svg
+  8 |     href: 192.168.1.82:8096
+  9 |         description: Jellyfin Media Player
+-------------------------^
+ 10 | 
+ 11 | - My Second Group:
+[2024-03-04T04:24:56.648Z] error: Failed to load services.yaml, please check for errors
+[2024-03-04T04:24:56.649Z] error: SyntaxError: Unexpected token m in JSON at position 0
+[2024-03-04T04:24:56.710Z] error: Failed to load services.yaml, please check for errors
+[2024-03-04T04:24:56.710Z] error: SyntaxError: Unexpected token m in JSON at position 0
+[2024-03-04T04:24:56.968Z] error: Failed to load services.yaml, please check for errors
+[2024-03-04T04:24:56.968Z] error: SyntaxError: Unexpected token m in JSON at position 0
+[2024-03-04T04:25:00.137Z] error: Failed to load services.yaml, please check for errors
+[2024-03-04T04:25:00.137Z] error: SyntaxError: Unexpected token m in JSON at position 0
+[2024-03-04T04:25:09.125Z] error: Failed to load services.yaml, please check for errors
+[2024-03-04T04:25:09.125Z] error: SyntaxError: Unexpected token o in JSON at position 1
+[2024-03-04T04:25:09.165Z] error: Failed to load services.yaml, please check for errors
+[2024-03-04T04:25:09.166Z] error: SyntaxError: Unexpected token o in JSON at position 1
+[2024-03-04T04:25:09.531Z] error: Failed to load services.yaml, please check for errors
+[2024-03-04T04:25:09.531Z] error: SyntaxError: Unexpected token o in JSON at position 1
+[2024-03-04T04:25:13.374Z] error: Failed to load services.yaml, please check for errors
+[2024-03-04T04:25:13.375Z] error: SyntaxError: Unexpected token o in JSON at position 1
+[2024-03-04T04:25:13.375Z] error: Failed to load services.yaml, please check for errors
+[2024-03-04T04:25:13.375Z] error: SyntaxError: Unexpected token o in JSON at position 1
+[2024-03-04T04:25:13.559Z] error: Failed to load services.yaml, please check for errors
+[2024-03-04T04:25:13.560Z] error: SyntaxError: Unexpected token o in JSON at position 1
+[2024-03-07T00:28:07.862Z] error: undefined
+[2024-03-07T00:28:07.863Z] error: undefined
+[2024-03-07T00:28:07.874Z] error: undefined
+[2024-03-07T00:28:07.874Z] error: undefined
+[2024-03-07T00:28:07.875Z] error: undefined
+[2024-03-07T00:28:07.881Z] error: undefined
+[2024-03-07T00:28:07.882Z] error: undefined
+[2024-03-07T18:06:39.378Z] error: bad indentation of a mapping entry (8:15)
+
+ 5 | - Media:
+ 6 |   - Jellyfin:
+ 7 |       icon: jellyfin.svg
+ 8 |       href: ""{{JELLYFIN_URL}}""
+-------------------^
+ 9 |       description: Jellyfin Media Player
+ 10 |       widget:
+[2024-03-07T18:06:39.381Z] error: bad indentation of a mapping entry (8:15)
+
+ 5 | - Media:
+ 6 |   - Jellyfin:
+ 7 |       icon: jellyfin.svg
+ 8 |       href: ""{{JELLYFIN_URL}}""
+-------------------^
+ 9 |       description: Jellyfin Media Player
+ 10 |       widget:
+[2024-03-07T18:06:39.395Z] error: Failed to load services.yaml, please check for errors
+[2024-03-07T18:06:39.396Z] error: YAMLException: bad indentation of a mapping entry (8:15)
+
+ 5 | - Media:
+ 6 |   - Jellyfin:
+ 7 |       icon: jellyfin.svg
+ 8 |       href: ""{{JELLYFIN_URL}}""
+-------------------^
+ 9 |       description: Jellyfin Media Player
+ 10 |       widget:
+[2024-03-07T18:06:40.501Z] error: Failed to load services.yaml, please check for errors
+[2024-03-07T18:06:40.501Z] error: YAMLException: bad indentation of a mapping entry (8:15)
+
+ 5 | - Media:
+ 6 |   - Jellyfin:
+ 7 |       icon: jellyfin.svg
+ 8 |       href: ""{{JELLYFIN_URL}}""
+-------------------^
+ 9 |       description: Jellyfin Media Player
+ 10 |       widget:
+[2024-03-07T18:06:40.883Z] error: Failed to load services.yaml, please check for errors
+[2024-03-07T18:06:40.883Z] error: YAMLException: bad indentation of a mapping entry (8:15)
+
+ 5 | - Media:
+ 6 |   - Jellyfin:
+ 7 |       icon: jellyfin.svg
+ 8 |       href: ""{{JELLYFIN_URL}}""
+-------------------^
+ 9 |       description: Jellyfin Media Player
+ 10 |       widget:
+[2024-03-07T18:06:50.549Z] error: Failed to load services.yaml, please check for errors
+[2024-03-07T18:06:50.549Z] error: YAMLException: bad indentation of a mapping entry (8:15)
+
+ 5 | - Media:
+ 6 |   - Jellyfin:
+ 7 |       icon: jellyfin.svg
+ 8 |       href: ""{{JELLYFIN_URL}}""
+-------------------^
+ 9 |       description: Jellyfin Media Player
+ 10 |       widget:
+[2024-03-07T18:08:17.165Z] error: undefined
+[2024-03-07T18:08:17.167Z] error: undefined
+[2024-03-07T18:08:17.231Z] error: undefined
+[2024-03-07T18:08:17.232Z] error: undefined
+[2024-03-07T18:08:17.269Z] error: undefined
+[2024-03-07T18:08:17.270Z] error: undefined
+[2024-03-07T18:08:18.981Z] error: undefined
+[2024-03-07T18:08:18.982Z] error: undefined
+[2024-03-07T18:08:19.750Z] error: undefined
+[2024-03-07T18:08:19.752Z] error: undefined
+[2024-03-07T18:08:24.006Z] error: undefined
+[2024-03-07T18:08:24.007Z] error: undefined
+[2024-03-07T18:08:24.775Z] error: undefined
+[2024-03-07T18:08:29.777Z] error: undefined
+[2024-03-07T18:08:39.033Z] error: undefined
+[2024-03-07T18:08:44.803Z] error: undefined
+[2024-03-07T18:09:09.813Z] error: undefined
+[2024-03-07T18:09:19.144Z] error: undefined
+[2024-03-07T18:09:20.982Z] error: undefined
+[2024-03-07T18:09:21.228Z] error: undefined
+[2024-03-07T18:09:21.928Z] error: undefined
+[2024-03-07T18:09:21.930Z] error: undefined
+[2024-03-07T18:09:22.042Z] error: undefined
+[2024-03-07T18:09:22.043Z] error: undefined
+[2024-03-07T18:09:22.062Z] error: undefined
+[2024-03-07T18:09:22.064Z] error: undefined
+[2024-03-07T18:09:24.736Z] error: undefined
+[2024-03-07T18:09:24.739Z] error: undefined
+[2024-03-07T18:09:27.063Z] error: undefined
+[2024-03-07T18:09:27.064Z] error: undefined
+[2024-03-07T18:09:27.086Z] error: undefined
+[2024-03-07T18:09:27.089Z] error: undefined
+[2024-03-07T18:09:34.756Z] error: undefined
+[2024-03-07T18:09:34.774Z] error: undefined
+[2024-03-07T18:09:37.109Z] error: undefined
+[2024-03-07T18:17:19.200Z] error: undefined
+[2024-03-07T18:17:19.202Z] error: undefined
+[2024-03-07T18:17:19.241Z] error: undefined
+[2024-03-07T18:17:19.242Z] error: undefined
+[2024-03-07T18:17:19.273Z] error: undefined
+[2024-03-07T18:17:19.274Z] error: undefined
+[2024-03-07T18:17:22.984Z] error: undefined
+[2024-03-07T18:17:22.985Z] error: undefined
+[2024-03-07T18:17:23.091Z] error: undefined
+[2024-03-07T18:17:23.094Z] error: undefined
+[2024-03-07T18:17:23.122Z] error: undefined
+[2024-03-07T18:17:23.124Z] error: undefined
+[2024-03-07T18:17:28.151Z] error: undefined
+[2024-03-07T18:17:33.151Z] error: undefined
+[2024-03-07T18:17:33.154Z] error: undefined
+[2024-03-07T18:17:38.300Z] error: undefined
+[2024-03-07T18:17:39.388Z] error: undefined
+[2024-03-07T18:17:39.413Z] error: undefined
+[2024-03-07T18:17:41.479Z] error: undefined
+[2024-03-07T18:17:41.480Z] error: undefined
+[2024-03-07T18:17:41.582Z] error: undefined
+[2024-03-07T18:17:41.584Z] error: undefined
+[2024-03-07T18:17:41.618Z] error: undefined
+[2024-03-07T18:17:41.622Z] error: undefined
+[2024-03-07T18:17:43.107Z] error: undefined
+[2024-03-07T18:17:43.108Z] error: undefined
+[2024-03-07T18:17:43.236Z] error: undefined
+[2024-03-07T18:17:43.239Z] error: undefined
+[2024-03-07T18:17:43.275Z] error: undefined
+[2024-03-07T18:17:43.277Z] error: undefined
+[2024-03-07T18:17:46.678Z] error: undefined
+[2024-03-07T18:17:46.682Z] error: undefined
+[2024-03-07T18:17:48.658Z] error: undefined
+[2024-03-07T18:17:53.696Z] error: undefined
+[2024-03-07T18:17:54.693Z] error: undefined
+[2024-03-07T18:17:57.743Z] error: undefined
+[2024-03-07T18:17:57.751Z] error: undefined
+[2024-03-07T18:25:43.184Z] error: undefined
+[2024-03-07T18:25:43.185Z] error: undefined
+[2024-03-07T18:25:48.215Z] error: undefined
+[2024-03-07T18:25:48.218Z] error: undefined
+[2024-03-07T18:25:54.810Z] error: undefined
+[2024-03-07T18:25:54.811Z] error: undefined
+[2024-03-07T18:25:58.238Z] error: undefined
+[2024-03-07T18:25:59.861Z] error: undefined
+[2024-03-07T18:26:00.791Z] error: undefined
+[2024-03-07T18:26:00.793Z] error: undefined
+[2024-03-07T18:26:03.237Z] error: undefined
+[2024-03-07T18:26:03.239Z] error: undefined
+[2024-03-07T18:26:03.352Z] error: undefined
+[2024-03-07T18:26:03.354Z] error: undefined
+[2024-03-07T18:26:03.378Z] error: undefined
+[2024-03-07T18:26:03.379Z] error: undefined
+[2024-03-07T18:26:08.372Z] error: undefined
+[2024-03-07T18:26:13.426Z] error: undefined
+[2024-03-07T18:26:13.429Z] error: undefined
+[2024-03-07T18:26:17.402Z] error: undefined
+[2024-03-07T18:26:17.404Z] error: undefined
+[2024-03-07T18:56:05.056Z] error: undefined
+[2024-03-07T18:56:15.202Z] error: undefined
+[2024-03-07T18:56:30.222Z] error: undefined
+[2024-03-07T18:56:42.807Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:56:43.035Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:56:47.833Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:56:53.690Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:56:53.937Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:57:04.039Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:57:09.901Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:57:10.200Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:57:12.287Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:57:22.391Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:57:29.893Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:57:30.401Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:57:35.445Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:57:37.385Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:57:37.685Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:57:48.791Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:59:15.501Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:59:15.871Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:59:20.963Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:59:46.110Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:59:51.927Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T18:59:57.010Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:01:29.275Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:01:29.565Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:01:34.921Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:01:35.139Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:01:37.674Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:01:43.611Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:02:09.815Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:02:10.104Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:02:12.878Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:02:23.009Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:02:33.052Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:03:13.098Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:04:08.136Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:04:18.669Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:04:29.367Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:06:13.814Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:06:52.414Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:06:52.483Z] error: undefined
+[2024-03-07T19:06:52.485Z] error: undefined
+[2024-03-07T19:06:52.489Z] error: undefined
+[2024-03-07T19:06:52.489Z] error: undefined
+[2024-03-07T19:06:52.883Z] error: undefined
+[2024-03-07T19:06:52.884Z] error: undefined
+[2024-03-07T19:06:52.893Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:06:52.980Z] error: undefined
+[2024-03-07T19:06:52.981Z] error: undefined
+[2024-03-07T19:06:53.014Z] error: undefined
+[2024-03-07T19:06:53.018Z] error: undefined
+[2024-03-07T19:06:57.993Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:06:58.016Z] error: undefined
+[2024-03-07T19:06:58.040Z] error: undefined
+[2024-03-07T19:07:03.012Z] error: undefined
+[2024-03-07T19:07:03.051Z] error: undefined
+[2024-03-07T19:07:08.412Z] error: undefined
+[2024-03-07T19:07:08.417Z] error: undefined
+[2024-03-07T19:07:08.422Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:07:08.700Z] error: undefined
+[2024-03-07T19:07:08.701Z] error: undefined
+[2024-03-07T19:07:08.713Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:07:08.840Z] error: undefined
+[2024-03-07T19:07:08.842Z] error: undefined
+[2024-03-07T19:07:08.867Z] error: undefined
+[2024-03-07T19:07:08.868Z] error: undefined
+[2024-03-07T19:07:12.856Z] error: undefined
+[2024-03-07T19:07:12.858Z] error: undefined
+[2024-03-07T19:07:12.885Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:07:13.142Z] error: undefined
+[2024-03-07T19:07:13.142Z] error: undefined
+[2024-03-07T19:07:13.151Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:07:13.265Z] error: undefined
+[2024-03-07T19:07:13.267Z] error: undefined
+[2024-03-07T19:07:13.299Z] error: undefined
+[2024-03-07T19:07:13.302Z] error: undefined
+[2024-03-07T19:07:18.257Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:07:18.331Z] error: undefined
+[2024-03-07T19:07:28.393Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:08:08.751Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:08:09.052Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:08:14.150Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:08:24.173Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:08:44.703Z] error: undefined
+[2024-03-07T19:08:49.089Z] error: undefined
+[2024-03-07T19:08:49.090Z] error: undefined
+[2024-03-07T19:08:49.096Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:08:49.752Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:08:52.234Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:08:56.351Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:09:03.106Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:09:06.674Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:09:07.074Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:09:12.737Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:11:07.331Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:11:08.262Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:11:18.678Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:11:36.881Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:11:38.327Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:11:40.014Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:11:50.122Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:12:15.454Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:12:17.683Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:12:22.189Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:12:27.798Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:12:30.365Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:12:32.536Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:12:41.052Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:12:43.049Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/1/docker/containers/json?all=1
+[2024-03-07T19:13:13.392Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:13:13.713Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:13:17.285Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:13:22.379Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:13:25.593Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:13:31.312Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:13:38.387Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:14:29.131Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:14:30.606Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:14:32.840Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:14:38.220Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:14:41.563Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:15:23.778Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:15:24.080Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:15:25.818Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:15:31.456Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:15:41.376Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:15:46.431Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:16:11.481Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:16:27.334Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:16:37.368Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:16:56.519Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:17:01.580Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:17:03.034Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:17:05.582Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:17:11.513Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T19:25:44.548Z] error: undefined
+[2024-03-07T19:25:44.886Z] error: undefined
+[2024-03-07T19:25:54.976Z] error: undefined
+[2024-03-07T19:26:10.005Z] error: undefined
+[2024-03-07T19:26:39.158Z] error: undefined
+[2024-03-07T19:26:41.784Z] error: undefined
+[2024-03-07T19:26:42.814Z] error: undefined
+[2024-03-07T19:26:47.898Z] error: undefined
+[2024-03-07T19:27:07.921Z] error: undefined
+[2024-03-07T19:35:14.904Z] error: undefined
+[2024-03-07T19:35:24.928Z] error: undefined
+[2024-03-07T19:35:37.301Z] error: undefined
+[2024-03-07T19:35:37.786Z] error: undefined
+[2024-03-07T19:35:39.573Z] error: undefined
+[2024-03-07T19:35:44.591Z] error: undefined
+[2024-03-07T19:35:47.033Z] error: undefined
+[2024-03-07T19:35:47.966Z] error: undefined
+[2024-03-07T19:35:53.780Z] error: undefined
+[2024-03-07T19:35:57.121Z] error: undefined
+[2024-03-07T19:35:59.117Z] error: undefined
+[2024-03-07T19:36:03.857Z] error: undefined
+[2024-03-07T19:36:04.341Z] error: undefined
+[2024-03-07T19:36:04.624Z] error: undefined
+[2024-03-07T19:36:07.218Z] error: undefined
+[2024-03-07T19:36:09.712Z] error: undefined
+[2024-03-07T19:36:13.421Z] error: undefined
+[2024-03-07T19:36:14.407Z] error: undefined
+[2024-03-07T19:36:18.918Z] error: undefined
+[2024-03-07T19:36:31.473Z] error: undefined
+[2024-03-07T19:36:31.753Z] error: undefined
+[2024-03-07T19:36:34.740Z] error: undefined
+[2024-03-07T19:36:41.856Z] error: undefined
+[2024-03-07T19:36:44.761Z] error: undefined
+[2024-03-07T19:36:53.400Z] error: undefined
+[2024-03-07T19:36:53.646Z] error: undefined
+[2024-03-07T19:37:03.746Z] error: undefined
+[2024-03-07T19:37:04.908Z] error: <index> YAMLException: bad indentation of a mapping entry (10:13)
+
+  7 | background:
+  8 |   image: https://cdn.pixabay.com/photo/2016 ...
+  9 |   blur: sm
+ 10 |     saturate: 50
+------------------^
+ 11 |     #brightness: 50
+ 12 |     #opacity: 50
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2272:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at getSettings (/app/.next/server/chunks/9277.js:109:75)
+[2024-03-07T19:37:04.941Z] error: undefined
+[2024-03-07T19:37:04.944Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2024-03-07T19:37:04.944Z] error: YAMLException: bad indentation of a mapping entry (10:13)
+
+  7 | background:
+  8 |   image: https://cdn.pixabay.com/photo/2016 ...
+  9 |   blur: sm
+ 10 |     saturate: 50
+------------------^
+ 11 |     #brightness: 50
+ 12 |     #opacity: 50
+[2024-03-07T19:37:04.947Z] error: Failed to load settings.yaml, please check for errors
+[2024-03-07T19:37:04.947Z] error: YAMLException: bad indentation of a mapping entry (10:13)
+
+  7 | background:
+  8 |   image: https://cdn.pixabay.com/photo/2016 ...
+  9 |   blur: sm
+ 10 |     saturate: 50
+------------------^
+ 11 |     #brightness: 50
+ 12 |     #opacity: 50
+[2024-03-07T19:37:04.954Z] error: Failed to load settings.yaml, please check for errors
+[2024-03-07T19:37:04.954Z] error: YAMLException: bad indentation of a mapping entry (10:13)
+
+  7 | background:
+  8 |   image: https://cdn.pixabay.com/photo/2016 ...
+  9 |   blur: sm
+ 10 |     saturate: 50
+------------------^
+ 11 |     #brightness: 50
+ 12 |     #opacity: 50
+[2024-03-07T19:37:05.140Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2024-03-07T19:37:05.141Z] error: YAMLException: bad indentation of a mapping entry (10:13)
+
+  7 | background:
+  8 |   image: https://cdn.pixabay.com/photo/2016 ...
+  9 |   blur: sm
+ 10 |     saturate: 50
+------------------^
+ 11 |     #brightness: 50
+ 12 |     #opacity: 50
+[2024-03-07T19:37:05.144Z] error: Failed to load settings.yaml, please check for errors
+[2024-03-07T19:37:05.145Z] error: YAMLException: bad indentation of a mapping entry (10:13)
+
+  7 | background:
+  8 |   image: https://cdn.pixabay.com/photo/2016 ...
+  9 |   blur: sm
+ 10 |     saturate: 50
+------------------^
+ 11 |     #brightness: 50
+ 12 |     #opacity: 50
+[2024-03-07T19:37:05.153Z] error: Failed to load settings.yaml, please check for errors
+[2024-03-07T19:37:05.154Z] error: YAMLException: bad indentation of a mapping entry (10:13)
+
+  7 | background:
+  8 |   image: https://cdn.pixabay.com/photo/2016 ...
+  9 |   blur: sm
+ 10 |     saturate: 50
+------------------^
+ 11 |     #brightness: 50
+ 12 |     #opacity: 50
+[2024-03-07T19:37:14.399Z] error: undefined
+[2024-03-07T19:37:19.477Z] error: undefined
+[2024-03-07T19:37:26.376Z] error: undefined
+[2024-03-07T19:37:26.615Z] error: undefined
+[2024-03-07T19:37:37.590Z] error: undefined
+[2024-03-07T19:38:41.021Z] error: undefined
+[2024-03-07T19:38:41.317Z] error: undefined
+[2024-03-07T19:38:51.437Z] error: undefined
+[2024-03-07T19:38:51.719Z] error: undefined
+[2024-03-07T19:39:02.024Z] error: undefined
+[2024-03-07T19:39:02.300Z] error: undefined
+[2024-03-07T19:39:12.395Z] error: undefined
+[2024-03-07T19:39:37.414Z] error: undefined
+[2024-03-07T19:39:40.407Z] error: undefined
+[2024-03-07T19:39:50.426Z] error: undefined
+[2024-03-07T19:40:00.442Z] error: undefined
+[2024-03-07T19:40:06.768Z] error: undefined
+[2024-03-07T19:40:16.794Z] error: undefined
+[2024-03-07T19:40:22.814Z] error: undefined
+[2024-03-07T19:40:38.968Z] error: undefined
+[2024-03-07T19:40:45.463Z] error: undefined
+[2024-03-07T19:40:48.993Z] error: undefined
+[2024-03-07T19:40:50.108Z] error: undefined
+[2024-03-07T19:41:00.667Z] error: undefined
+[2024-03-07T19:41:02.064Z] error: undefined
+[2024-03-07T19:41:09.020Z] error: undefined
+[2024-03-07T19:41:12.089Z] error: undefined
+[2024-03-07T19:41:30.308Z] error: undefined
+[2024-03-07T19:41:37.925Z] error: undefined
+[2024-03-07T19:41:40.944Z] error: undefined
+[2024-03-07T19:41:44.968Z] error: undefined
+[2024-03-07T19:41:51.777Z] error: undefined
+[2024-03-07T19:42:00.902Z] error: undefined
+[2024-03-07T19:42:01.915Z] error: undefined
+[2024-03-07T19:42:20.540Z] error: undefined
+[2024-03-07T19:42:30.784Z] error: undefined
+[2024-03-07T19:44:39.457Z] error: undefined
+[2024-03-07T19:44:44.413Z] error: undefined
+[2024-03-07T19:44:47.562Z] error: undefined
+[2024-03-07T19:44:52.598Z] error: undefined
+[2024-03-07T19:44:54.612Z] error: undefined
+[2024-03-07T19:53:08.172Z] error: undefined
+[2024-03-07T19:53:09.356Z] error: undefined
+[2024-03-07T19:53:14.619Z] error: undefined
+[2024-03-07T19:53:34.316Z] error: undefined
+[2024-03-07T19:53:39.904Z] error: undefined
+[2024-03-07T19:54:49.645Z] error: undefined
+[2024-03-07T19:54:54.682Z] error: undefined
+[2024-03-07T19:56:19.708Z] error: undefined
+[2024-03-07T19:56:20.027Z] error: undefined
+[2024-03-07T19:56:25.199Z] error: undefined
+[2024-03-07T19:56:31.853Z] error: undefined
+[2024-03-07T19:56:37.410Z] error: undefined
+[2024-03-07T19:57:42.405Z] error: undefined
+[2024-03-07T19:57:42.748Z] error: undefined
+[2024-03-07T19:57:52.151Z] error: undefined
+[2024-03-07T19:57:52.416Z] error: undefined
+[2024-03-07T19:57:56.113Z] error: undefined
+[2024-03-07T19:58:01.281Z] error: undefined
+[2024-03-07T19:58:11.302Z] info: services.yaml was copied to the config folder
+[2024-03-07T19:58:12.260Z] error: undefined
+[2024-03-07T19:58:17.363Z] error: undefined
+[2024-03-07T19:58:31.324Z] error: undefined
+[2024-03-07T19:58:31.694Z] error: undefined
+[2024-03-07T19:58:42.657Z] error: undefined
+[2024-03-07T19:58:56.679Z] error: undefined
+[2024-03-07T19:58:57.004Z] error: undefined
+[2024-03-07T19:59:02.035Z] error: undefined
+[2024-03-07T19:59:04.386Z] error: undefined
+[2024-03-07T19:59:04.394Z] error: <httpProxy> Error calling http://192.168.1.82:8099/...
+[2024-03-07T19:59:04.399Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.82:8099
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.82',
+    port: 8099
+  }
+]
+[2024-03-07T19:59:04.405Z] error: <httpProxy> Error calling http://192.168.1.82:8099/...
+[2024-03-07T19:59:04.405Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.82:8099
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.82',
+    port: 8099
+  }
+]
+[2024-03-07T19:59:04.691Z] error: undefined
+[2024-03-07T19:59:04.693Z] error: <httpProxy> Error calling http://192.168.1.82:8099/...
+[2024-03-07T19:59:04.694Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.82:8099
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.82',
+    port: 8099
+  }
+]
+[2024-03-07T19:59:04.703Z] error: <httpProxy> Error calling http://192.168.1.82:8099/...
+[2024-03-07T19:59:04.704Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.1.82:8099
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.1.82',
+    port: 8099
+  }
+]
+[2024-03-07T19:59:09.778Z] error: undefined
+[2024-03-07T19:59:10.983Z] error: undefined
+[2024-03-07T19:59:11.254Z] error: undefined
+[2024-03-07T19:59:16.364Z] error: undefined
+[2024-03-07T19:59:37.286Z] error: undefined
+[2024-03-07T20:00:15.242Z] error: undefined
+[2024-03-07T20:00:15.354Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-03-07T20:00:15.559Z] error: undefined
+[2024-03-07T20:00:15.658Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-03-07T20:00:19.372Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-03-07T20:00:19.373Z] error: undefined
+[2024-03-07T20:00:25.687Z] error: undefined
+[2024-03-07T20:00:29.776Z] error: undefined
+[2024-03-07T20:00:30.201Z] error: undefined
+[2024-03-07T20:00:30.232Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-03-07T20:00:35.324Z] error: undefined
+[2024-03-07T20:00:44.045Z] error: undefined
+[2024-03-07T20:00:44.066Z] error: <dockerStatusService> Error: connect ENOENT /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+[2024-03-07T20:00:44.088Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading '192.168.1.82')
+    at getDockerArguments (/app/.next/server/chunks/7163.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-03-07T20:00:44.377Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading '192.168.1.82')
+    at getDockerArguments (/app/.next/server/chunks/7163.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-03-07T20:00:44.383Z] error: undefined
+[2024-03-07T20:00:45.936Z] error: undefined
+[2024-03-07T20:00:50.949Z] error: undefined
+[2024-03-07T20:00:54.493Z] error: undefined
+[2024-03-07T20:01:01.902Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading '192.168.1.82')
+    at getDockerArguments (/app/.next/server/chunks/7163.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-03-07T20:01:01.910Z] error: undefined
+[2024-03-07T20:01:02.309Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/7163.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-03-07T20:01:02.323Z] error: undefined
+[2024-03-07T20:01:13.066Z] error: undefined
+[2024-03-07T20:02:02.541Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'localhost')
+    at getDockerArguments (/app/.next/server/chunks/7163.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-03-07T20:02:02.548Z] error: undefined
+[2024-03-07T20:02:02.616Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'http:')
+    at getDockerArguments (/app/.next/server/chunks/7163.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-03-07T20:02:02.876Z] error: undefined
+[2024-03-07T20:02:02.954Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'http:')
+    at getDockerArguments (/app/.next/server/chunks/7163.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-03-07T20:02:13.294Z] error: undefined
+[2024-03-07T20:03:37.948Z] error: undefined
+[2024-03-07T20:03:37.962Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'http:')
+    at getDockerArguments (/app/.next/server/chunks/7163.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-03-07T20:03:38.251Z] error: undefined
+[2024-03-07T20:03:41.028Z] error: undefined
+[2024-03-07T20:03:43.341Z] error: undefined
+[2024-03-07T20:03:46.055Z] error: undefined
+[2024-03-07T20:03:53.364Z] error: undefined
+[2024-03-07T20:03:54.526Z] error: undefined
+[2024-03-07T20:03:54.835Z] error: undefined
+[2024-03-07T20:04:00.014Z] error: undefined
+[2024-03-07T20:04:33.659Z] error: undefined
+[2024-03-07T20:04:33.943Z] error: undefined
+[2024-03-07T20:04:37.435Z] error: undefined
+[2024-03-07T20:04:44.099Z] error: undefined
+[2024-03-07T20:04:44.291Z] error: undefined
+[2024-03-07T20:04:44.589Z] error: undefined
+[2024-03-07T20:04:50.453Z] error: undefined
+[2024-03-07T20:09:27.077Z] error: undefined
+[2024-03-07T20:09:37.702Z] error: undefined
+[2024-03-07T20:10:25.912Z] error: undefined
+[2024-03-07T20:10:26.221Z] error: undefined
+[2024-03-07T20:10:29.153Z] error: undefined
+[2024-03-07T20:10:36.329Z] error: undefined
+[2024-03-07T20:10:39.336Z] error: undefined
+[2024-03-07T20:10:49.849Z] error: undefined
+[2024-03-07T20:10:56.353Z] error: undefined
+[2024-03-07T20:11:14.875Z] error: undefined
+[2024-03-07T20:11:30.843Z] error: undefined
+[2024-03-07T20:11:31.157Z] error: undefined
+[2024-03-07T20:11:34.952Z] error: undefined
+[2024-03-07T20:11:36.252Z] error: undefined
+[2024-03-07T20:11:40.842Z] error: undefined
+[2024-03-07T20:11:45.420Z] error: undefined
+[2024-03-07T20:11:50.968Z] error: undefined
+[2024-03-07T20:11:56.489Z] error: undefined
+[2024-03-07T20:28:23.551Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:28:24.256Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:28:27.072Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:28:30.342Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:28:36.982Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:28:37.187Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:28:40.423Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:28:47.013Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:28:55.470Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:28:57.226Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:28:59.683Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:29:00.205Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:29:05.342Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:29:08.512Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:29:15.374Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:29:18.761Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:29:35.818Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:29:56.846Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:30:01.940Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:30:17.831Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:30:20.964Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:30:25.996Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:30:46.020Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:31:16.041Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:31:32.755Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:31:37.778Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:31:47.799Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:32:01.148Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:32:11.913Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:32:18.603Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:32:28.642Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:32:31.069Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:32:38.670Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:32:42.831Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:32:53.340Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:32:59.267Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:33:09.081Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:33:14.423Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:33:42.865Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:33:51.618Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:33:52.061Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:33:53.080Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:33:57.120Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:34:03.112Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:34:03.586Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:34:08.619Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:34:14.051Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:34:19.081Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:34:23.649Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.1.82:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-03-07T20:34:31.264Z] error: undefined
+[2024-03-07T20:56:42.633Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-03-07T20:56:42.634Z] error: end of the stream or a document separator is expected (14:1)
+
+ 11 |     provider: duckduckgo
+ 12 |     target: _blank
+ 13 | 
+ 14 | -openmeteo:
+------^
+ 15 |   label: Current
+ 16 |   latitude: 38.76028
+[2024-03-07T20:56:42.665Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-03-07T20:56:42.666Z] error: end of the stream or a document separator is expected (14:1)
+
+ 11 |     provider: duckduckgo
+ 12 |     target: _blank
+ 13 | 
+ 14 | -openmeteo:
+------^
+ 15 |   label: Current
+ 16 |   latitude: 38.76028
+[2024-03-07T20:56:42.859Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-03-07T20:56:42.859Z] error: end of the stream or a document separator is expected (14:1)
+
+ 11 |     provider: duckduckgo
+ 12 |     target: _blank
+ 13 | 
+ 14 | -openmeteo:
+------^
+ 15 |   label: Current
+ 16 |   latitude: 38.76028
+[2024-03-07T20:56:46.973Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-03-07T20:56:46.974Z] error: end of the stream or a document separator is expected (14:1)
+
+ 11 |     provider: duckduckgo
+ 12 |     target: _blank
+ 13 | 
+ 14 | -openmeteo:
+------^
+ 15 |   label: Current
+ 16 |   latitude: 38.76028

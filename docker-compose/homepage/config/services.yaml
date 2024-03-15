@@ -1,0 +1,80 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- Media:
+  - Jellyfin:
+      icon: jellyfin.svg
+      href: "{{HOMEPAGE_VAR_JELLYFIN_URL}}"
+      description: Jellyfin Media Player
+        #widget:
+        #  type: jellyfin
+        #  url: "{{HOMEPAGE_VAR_JELLYFIN_URL}}"
+        #  key: "{{HOMEPAGE_VAR_JELLYFIN_API_KEY}}"
+        #  enableBlocks: true
+        #  enableNowPlaying: true # optional, defaults to true
+  - Sonarr:
+      icon: sonarr.svg
+      href: "{{HOMEPAGE_VAR_SONARR_URL}}"
+      description: Series PVR for torrent
+        #widget:
+        #  type: sonarr
+        #  url: "{{HOMEPAGE_VAR_SONARR_URL}}"
+        #  key: "{{HOMEPAGE_VAR_SONARR_API_KEY}}"
+        #  enableQueue: true # optional, defaults to false
+  - Radarr:
+      icon: radarr.svg
+      href: "{{HOMEPAGE_VAR_RADARR_URL}}"
+      description: Movies PVR for torrent
+        #widget:
+        #  type: radarr
+        #  url: http://192.168.1.82:7878
+        #  key: efdb8cae90e24ddc9a9856ce5e479646
+        #  enableQueue: true # optional, defaults to false
+  - Bazarr:
+      icon: bazarr.svg
+      href: "{{HOMEPAGE_VAR_BAZARR_URL}}"
+      description: Media subtitles grabber
+  - Prowlarr:
+      icon: prowlarr.svg
+      href: "{{HOMEPAGE_VAR_PROWLARR_URL}}"
+      description: Torrent index manager
+  - Plex:
+      icon: plex.svg
+      href: "{{HOMEPAGE_VAR_PLEX_URL}}"
+      description: Plex Media Player
+  - Transmission:
+      icon: transmission.svg
+      href: "{{HOMEPAGE_VAR_TRANSMISSION_URL}}"
+      description: BitTorrent client
+
+
+- Management:
+    - Portainer:
+        icon: portainer.svg
+        href: "{{HOMEPAGE_VAR_PORTAINER_URL}}"
+        description: Container management 
+          #widget:
+          #  type: portainer
+          #  url: "{{HOMEPAGE_VAR_PORTAINER_API_URL}}"
+          #  env: 2
+          #  key: "{{HOMEPAGE_VAR_PORTAINER_API_KEY}}"
+    - Nginx Proxy Manager:
+        icon: nginx-proxy-manager.svg
+        href: "{{HOMEPAGE_VAR_NGINX_URL}}"
+        description: Proxy manager
+
+- Monitoring:
+  - Grafana:
+      icon: grafana.svg
+      href: "{{HOMEPAGE_VAR_GRAFANA_URL}}"
+      description: Usage analytics visualization
+  - Prometheus:
+      icon: prometheus.svg
+      href: "{{HOMEPAGE_VAR_PROMETHEUS_URL}}"
+      description: Usage monitoring
+
+          #- My Third Group:
+          #    - My Third Service:
+          #        href: http://localhost/
+          #        description: Homepage is 😎

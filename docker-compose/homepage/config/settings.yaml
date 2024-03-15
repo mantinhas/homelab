@@ -1,0 +1,32 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/settings
+
+title: Home Dashboard
+
+theme: dark
+color: neutral
+
+headerStyle: boxed
+
+layout:
+  Media:
+    style: row
+    columns: 4
+  Management:
+    style: row
+    columns: 4
+  Monitoring:
+    style: row
+    columns: 4
+
+      #background:
+      #  image: https://cdn.pixabay.com/photo/2016/11/23/15/23/cosmos-1853491_960_720.jpg
+      #  blur: md
+      #  saturate: 50
+      #  brightness: 50
+      #  opacity: 50
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
